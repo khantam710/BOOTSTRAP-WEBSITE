@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #626c84;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    color: #252a37;
+    font-weight: 700;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+.gap-60{
+    height: 60px;
+    clear: both;
+}
+/* Banner Section */
+#banner{
+    background-image: url('../images/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 300px;
+    position: relative;
+}
+.banner-heading{
+    width: 100%;
+    color: #fff;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 48px;
+}
+.breadcrumb-item.active{
+    color: #fff;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #fff;
+}
+.breadcrumb-item a{
+    color: #fff;
+    text-decoration: none;
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+#contact-sec{
+    padding: 60px 0;
+}
+.icon i{
+    color: #da0f32;
+    font-size: 30px;
+}
+.contact-sec .contact-title{
+    color:#252a37;
+}
+.contact-sec p{
+    color: #000;
+}
+.map{
+    position: relative;
+}
+.map-content{
+    background-color: #fff;
+    padding: 10px;
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.map-content span{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 20px;
+    margin: 15px 0;
+}
+td{
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.ok{
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+    padding: 0 24px;
+}
+.ok:hover{
+    background-color: rgba(66,133,244,.04);
+    border: 1px solid #d2e3fc;
+}
+#map-1{
+    padding: 60px 0 0 0;
+}
